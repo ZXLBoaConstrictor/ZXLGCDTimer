@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		827C171C21241BF700C43B57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C171B21241BF700C43B57 /* AppDelegate.m */; };
+		827C171F21241BF700C43B57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C171E21241BF700C43B57 /* ViewController.m */; };
+		827C172221241BF700C43B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827C172021241BF700C43B57 /* Main.storyboard */; };
+		827C172421241BFB00C43B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827C172321241BFB00C43B57 /* Assets.xcassets */; };
+		827C172721241BFB00C43B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827C172521241BFB00C43B57 /* LaunchScreen.storyboard */; };
+		827C172A21241BFB00C43B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C172921241BFB00C43B57 /* main.m */; };
+		827C173421241BFB00C43B57 /* ZXLGCDTimerDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C173321241BFB00C43B57 /* ZXLGCDTimerDomeTests.m */; };
+		827C173F21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C173E21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.m */; };
+		827C174E21241C7100C43B57 /* ZXLCGDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C174C21241C7100C43B57 /* ZXLCGDTimer.m */; };
+		827C17512124219400C43B57 /* TimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C17502124219400C43B57 /* TimerTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		827C173021241BFB00C43B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827C170F21241BF700C43B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 827C171621241BF700C43B57;
+			remoteInfo = ZXLGCDTimerDome;
+		};
+		827C173B21241BFB00C43B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827C170F21241BF700C43B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 827C171621241BF700C43B57;
+			remoteInfo = ZXLGCDTimerDome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		827C171721241BF700C43B57 /* ZXLGCDTimerDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXLGCDTimerDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		827C171A21241BF700C43B57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		827C171B21241BF700C43B57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		827C171D21241BF700C43B57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		827C171E21241BF700C43B57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		827C172121241BF700C43B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		827C172321241BFB00C43B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		827C172621241BFB00C43B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		827C172821241BFB00C43B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827C172921241BFB00C43B57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		827C172F21241BFB00C43B57 /* ZXLGCDTimerDomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXLGCDTimerDomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		827C173321241BFB00C43B57 /* ZXLGCDTimerDomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXLGCDTimerDomeTests.m; sourceTree = "<group>"; };
+		827C173521241BFB00C43B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827C173A21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXLGCDTimerDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		827C173E21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXLGCDTimerDomeUITests.m; sourceTree = "<group>"; };
+		827C174021241BFB00C43B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827C174C21241C7100C43B57 /* ZXLCGDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLCGDTimer.m; sourceTree = "<group>"; };
+		827C174D21241C7100C43B57 /* ZXLCGDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLCGDTimer.h; sourceTree = "<group>"; };
+		827C174F2124219400C43B57 /* TimerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTableViewCell.h; sourceTree = "<group>"; };
+		827C17502124219400C43B57 /* TimerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		827C171421241BF700C43B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827C172C21241BFB00C43B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827C173721241BFB00C43B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		827C170E21241BF700C43B57 = {
+			isa = PBXGroup;
+			children = (
+				827C171921241BF700C43B57 /* ZXLGCDTimerDome */,
+				827C173221241BFB00C43B57 /* ZXLGCDTimerDomeTests */,
+				827C173D21241BFB00C43B57 /* ZXLGCDTimerDomeUITests */,
+				827C171821241BF700C43B57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		827C171821241BF700C43B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827C171721241BF700C43B57 /* ZXLGCDTimerDome.app */,
+				827C172F21241BFB00C43B57 /* ZXLGCDTimerDomeTests.xctest */,
+				827C173A21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827C171921241BF700C43B57 /* ZXLGCDTimerDome */ = {
+			isa = PBXGroup;
+			children = (
+				827C171A21241BF700C43B57 /* AppDelegate.h */,
+				827C171B21241BF700C43B57 /* AppDelegate.m */,
+				827C171D21241BF700C43B57 /* ViewController.h */,
+				827C171E21241BF700C43B57 /* ViewController.m */,
+				827C174F2124219400C43B57 /* TimerTableViewCell.h */,
+				827C17502124219400C43B57 /* TimerTableViewCell.m */,
+				827C174D21241C7100C43B57 /* ZXLCGDTimer.h */,
+				827C174C21241C7100C43B57 /* ZXLCGDTimer.m */,
+				827C172021241BF700C43B57 /* Main.storyboard */,
+				827C172321241BFB00C43B57 /* Assets.xcassets */,
+				827C172521241BFB00C43B57 /* LaunchScreen.storyboard */,
+				827C172821241BFB00C43B57 /* Info.plist */,
+				827C172921241BFB00C43B57 /* main.m */,
+			);
+			path = ZXLGCDTimerDome;
+			sourceTree = "<group>";
+		};
+		827C173221241BFB00C43B57 /* ZXLGCDTimerDomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				827C173321241BFB00C43B57 /* ZXLGCDTimerDomeTests.m */,
+				827C173521241BFB00C43B57 /* Info.plist */,
+			);
+			path = ZXLGCDTimerDomeTests;
+			sourceTree = "<group>";
+		};
+		827C173D21241BFB00C43B57 /* ZXLGCDTimerDomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				827C173E21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.m */,
+				827C174021241BFB00C43B57 /* Info.plist */,
+			);
+			path = ZXLGCDTimerDomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		827C171621241BF700C43B57 /* ZXLGCDTimerDome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827C174321241BFB00C43B57 /* Build configuration list for PBXNativeTarget "ZXLGCDTimerDome" */;
+			buildPhases = (
+				827C171321241BF700C43B57 /* Sources */,
+				827C171421241BF700C43B57 /* Frameworks */,
+				827C171521241BF700C43B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXLGCDTimerDome;
+			productName = ZXLGCDTimerDome;
+			productReference = 827C171721241BF700C43B57 /* ZXLGCDTimerDome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		827C172E21241BFB00C43B57 /* ZXLGCDTimerDomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827C174621241BFB00C43B57 /* Build configuration list for PBXNativeTarget "ZXLGCDTimerDomeTests" */;
+			buildPhases = (
+				827C172B21241BFB00C43B57 /* Sources */,
+				827C172C21241BFB00C43B57 /* Frameworks */,
+				827C172D21241BFB00C43B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				827C173121241BFB00C43B57 /* PBXTargetDependency */,
+			);
+			name = ZXLGCDTimerDomeTests;
+			productName = ZXLGCDTimerDomeTests;
+			productReference = 827C172F21241BFB00C43B57 /* ZXLGCDTimerDomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		827C173921241BFB00C43B57 /* ZXLGCDTimerDomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827C174921241BFB00C43B57 /* Build configuration list for PBXNativeTarget "ZXLGCDTimerDomeUITests" */;
+			buildPhases = (
+				827C173621241BFB00C43B57 /* Sources */,
+				827C173721241BFB00C43B57 /* Frameworks */,
+				827C173821241BFB00C43B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				827C173C21241BFB00C43B57 /* PBXTargetDependency */,
+			);
+			name = ZXLGCDTimerDomeUITests;
+			productName = ZXLGCDTimerDomeUITests;
+			productReference = 827C173A21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		827C170F21241BF700C43B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "张小龙";
+				TargetAttributes = {
+					827C171621241BF700C43B57 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					827C172E21241BFB00C43B57 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 827C171621241BF700C43B57;
+					};
+					827C173921241BFB00C43B57 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 827C171621241BF700C43B57;
+					};
+				};
+			};
+			buildConfigurationList = 827C171221241BF700C43B57 /* Build configuration list for PBXProject "ZXLGCDTimerDome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 827C170E21241BF700C43B57;
+			productRefGroup = 827C171821241BF700C43B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				827C171621241BF700C43B57 /* ZXLGCDTimerDome */,
+				827C172E21241BFB00C43B57 /* ZXLGCDTimerDomeTests */,
+				827C173921241BFB00C43B57 /* ZXLGCDTimerDomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		827C171521241BF700C43B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827C172721241BFB00C43B57 /* LaunchScreen.storyboard in Resources */,
+				827C172421241BFB00C43B57 /* Assets.xcassets in Resources */,
+				827C172221241BF700C43B57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827C172D21241BFB00C43B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827C173821241BFB00C43B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		827C171321241BF700C43B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827C171F21241BF700C43B57 /* ViewController.m in Sources */,
+				827C17512124219400C43B57 /* TimerTableViewCell.m in Sources */,
+				827C172A21241BFB00C43B57 /* main.m in Sources */,
+				827C171C21241BF700C43B57 /* AppDelegate.m in Sources */,
+				827C174E21241C7100C43B57 /* ZXLCGDTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827C172B21241BFB00C43B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827C173421241BFB00C43B57 /* ZXLGCDTimerDomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		827C173621241BFB00C43B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827C173F21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		827C173121241BFB00C43B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 827C171621241BF700C43B57 /* ZXLGCDTimerDome */;
+			targetProxy = 827C173021241BFB00C43B57 /* PBXContainerItemProxy */;
+		};
+		827C173C21241BFB00C43B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 827C171621241BF700C43B57 /* ZXLGCDTimerDome */;
+			targetProxy = 827C173B21241BFB00C43B57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		827C172021241BF700C43B57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827C172121241BF700C43B57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		827C172521241BFB00C43B57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827C172621241BFB00C43B57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		827C174121241BFB00C43B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		827C174221241BFB00C43B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		827C174421241BFB00C43B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T87C2R7MW;
+				INFOPLIST_FILE = ZXLGCDTimerDome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jlb.ZXLGCDTimerDome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		827C174521241BFB00C43B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T87C2R7MW;
+				INFOPLIST_FILE = ZXLGCDTimerDome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jlb.ZXLGCDTimerDome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		827C174721241BFB00C43B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T87C2R7MW;
+				INFOPLIST_FILE = ZXLGCDTimerDomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jlb.ZXLGCDTimerDomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXLGCDTimerDome.app/ZXLGCDTimerDome";
+			};
+			name = Debug;
+		};
+		827C174821241BFB00C43B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T87C2R7MW;
+				INFOPLIST_FILE = ZXLGCDTimerDomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jlb.ZXLGCDTimerDomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXLGCDTimerDome.app/ZXLGCDTimerDome";
+			};
+			name = Release;
+		};
+		827C174A21241BFB00C43B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T87C2R7MW;
+				INFOPLIST_FILE = ZXLGCDTimerDomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jlb.ZXLGCDTimerDomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXLGCDTimerDome;
+			};
+			name = Debug;
+		};
+		827C174B21241BFB00C43B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7T87C2R7MW;
+				INFOPLIST_FILE = ZXLGCDTimerDomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jlb.ZXLGCDTimerDomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZXLGCDTimerDome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		827C171221241BF700C43B57 /* Build configuration list for PBXProject "ZXLGCDTimerDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827C174121241BFB00C43B57 /* Debug */,
+				827C174221241BFB00C43B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827C174321241BFB00C43B57 /* Build configuration list for PBXNativeTarget "ZXLGCDTimerDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827C174421241BFB00C43B57 /* Debug */,
+				827C174521241BFB00C43B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827C174621241BFB00C43B57 /* Build configuration list for PBXNativeTarget "ZXLGCDTimerDomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827C174721241BFB00C43B57 /* Debug */,
+				827C174821241BFB00C43B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827C174921241BFB00C43B57 /* Build configuration list for PBXNativeTarget "ZXLGCDTimerDomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827C174A21241BFB00C43B57 /* Debug */,
+				827C174B21241BFB00C43B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 827C170F21241BF700C43B57 /* Project object */;
+}
