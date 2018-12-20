@@ -1,5 +1,5 @@
 //
-//  ZXLCGDTimer.h
+//  ZXLGCDTimer.h
 //  testTimer
 //
 //  Created by 张小龙 on 2018/7/18.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ZXLCGDTimer : NSObject
+@interface ZXLGCDTimer : NSObject
 -(instancetype)initWithTimeInterval:(NSInteger)interval target:(id)target selector:(SEL)selector parameter:(id)parameter;
 
 

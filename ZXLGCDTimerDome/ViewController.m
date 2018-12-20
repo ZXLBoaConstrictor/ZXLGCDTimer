@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "TimerTableViewCell.h"
-#import "ZXLCGDTimer.h"
+#import "ZXLGCDTimer.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView * tableView;
 @end
@@ -39,11 +39,11 @@
         
     });
 //    //正常使用
-    [ZXLCGDTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(print) userInfo:0 repeats:YES];
+    [ZXLGCDTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(print) userInfo:0 repeats:YES];
 //
 //    //异步使用
 //    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-//        [ZXLCGDTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(print2) userInfo:0 repeats:YES];
+//        [ZXLGCDTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(print2) userInfo:0 repeats:YES];
 //    });
 //
     

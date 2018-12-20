@@ -15,7 +15,7 @@
 		827C172A21241BFB00C43B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C172921241BFB00C43B57 /* main.m */; };
 		827C173421241BFB00C43B57 /* ZXLGCDTimerDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C173321241BFB00C43B57 /* ZXLGCDTimerDomeTests.m */; };
 		827C173F21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C173E21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.m */; };
-		827C174E21241C7100C43B57 /* ZXLCGDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C174C21241C7100C43B57 /* ZXLCGDTimer.m */; };
+		827C174E21241C7100C43B57 /* ZXLGGDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C174C21241C7100C43B57 /* ZXLGGDTimer.m */; };
 		827C17512124219400C43B57 /* TimerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C17502124219400C43B57 /* TimerTableViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +53,8 @@
 		827C173A21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXLGCDTimerDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		827C173E21241BFB00C43B57 /* ZXLGCDTimerDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXLGCDTimerDomeUITests.m; sourceTree = "<group>"; };
 		827C174021241BFB00C43B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		827C174C21241C7100C43B57 /* ZXLCGDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLCGDTimer.m; sourceTree = "<group>"; };
-		827C174D21241C7100C43B57 /* ZXLCGDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLCGDTimer.h; sourceTree = "<group>"; };
+		827C174C21241C7100C43B57 /* ZXLGGDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLGGDTimer.m; sourceTree = "<group>"; };
+		827C174D21241C7100C43B57 /* ZXLGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLGCDTimer.h; sourceTree = "<group>"; };
 		827C174F2124219400C43B57 /* TimerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTableViewCell.h; sourceTree = "<group>"; };
 		827C17502124219400C43B57 /* TimerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,8 +113,8 @@
 				827C171E21241BF700C43B57 /* ViewController.m */,
 				827C174F2124219400C43B57 /* TimerTableViewCell.h */,
 				827C17502124219400C43B57 /* TimerTableViewCell.m */,
-				827C174D21241C7100C43B57 /* ZXLCGDTimer.h */,
-				827C174C21241C7100C43B57 /* ZXLCGDTimer.m */,
+				827C174D21241C7100C43B57 /* ZXLGCDTimer.h */,
+				827C174C21241C7100C43B57 /* ZXLGGDTimer.m */,
 				827C172021241BF700C43B57 /* Main.storyboard */,
 				827C172321241BFB00C43B57 /* Assets.xcassets */,
 				827C172521241BFB00C43B57 /* LaunchScreen.storyboard */,
@@ -276,7 +276,7 @@
 				827C17512124219400C43B57 /* TimerTableViewCell.m in Sources */,
 				827C172A21241BFB00C43B57 /* main.m in Sources */,
 				827C171C21241BF700C43B57 /* AppDelegate.m in Sources */,
-				827C174E21241C7100C43B57 /* ZXLCGDTimer.m in Sources */,
+				827C174E21241C7100C43B57 /* ZXLGGDTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

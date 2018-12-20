@@ -1,24 +1,24 @@
 //
-//  ZXLCGDTimer.m
+//  ZXLGCDTimer.m
 //  testTimer
 //
 //  Created by 张小龙 on 2018/7/18.
 //  Copyright © 2018年 张小龙. All rights reserved.
 //
 
-#import "ZXLCGDTimer.h"
-@interface ZXLCGDTimer()
+#import "ZXLGCDTimer.h"
+@interface ZXLGCDTimer()
 @property (nonatomic, copy) NSString  * timerKey;
 @property (nonatomic, strong) NSMutableDictionary * timerContainer;
 @end
 
-@implementation ZXLCGDTimer
+@implementation ZXLGCDTimer
 
 +(instancetype)manager{
     static dispatch_once_t pred = 0;
-    static ZXLCGDTimer * manager = nil;
+    static ZXLGCDTimer * manager = nil;
     dispatch_once(&pred, ^{
-        manager = [[ZXLCGDTimer alloc] init];
+        manager = [[ZXLGCDTimer alloc] init];
     });
     return manager;
 }
@@ -116,7 +116,7 @@
                              selector:(SEL)selector
                              userInfo:(id)userInfo
                               repeats:(BOOL)repeats{
-    [[ZXLCGDTimer manager] addTimerWithTimeInterval:timeInterval
+    [[ZXLGCDTimer manager] addTimerWithTimeInterval:timeInterval
                                              target:target
                                            selector:selector
                                            userInfo:userInfo

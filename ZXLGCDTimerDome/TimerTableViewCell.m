@@ -7,12 +7,12 @@
 //
 
 #import "TimerTableViewCell.h"
-#import "ZXLCGDTimer.h"
+#import "ZXLGCDTimer.h"
 @implementation TimerTableViewCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]){
-        [ZXLCGDTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(changeText) userInfo:0 repeats:YES];
+        [ZXLGCDTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(changeText) userInfo:0 repeats:YES];
     }
     return self;
 }
